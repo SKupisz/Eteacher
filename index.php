@@ -12,8 +12,8 @@
 </section>
 <section id = "triangle"></section>
 <main id = "content">
-  <button id = "Sign-in-button">Sign in</button>
-  <button id = "Sign-up-button">Sign up</button>
+  <a id = "Sign-in-button" href = "signIn.php">Sign in</a>
+  <a id = "Sign-up-button" href = "signUp.php">Sign up</a>
 </main>
 </body>
 <script src = "jquery-3-2-1.js"></script>

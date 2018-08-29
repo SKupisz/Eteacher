@@ -1,0 +1,66 @@
+@keyframes basic-button-animation{
+  0% {
+    background: DarkOrange;
+  }
+  10%{
+    background: #aaa;
+  }
+  100%{
+    background: DarkOrange;
+  }
+}
+@keyframes slide {
+  0%{
+    position: absolute; top: 0px; left: 0px;
+  }
+  20%{
+    position: absolute; top: 0px; left: -20%;
+  }
+  21%{
+    display: none;
+    position: absolute; top: 0px; left: 100%;
+
+  }
+  40%{
+    display: block;
+    position: absolute; top: 0px; left: 80%;
+  }
+  60%{
+    position: absolute; top: 0px; left: 50%;
+  }
+  80%{
+    position: absolute; top: 0px; left: 20%;
+  }
+  100%{
+    position: absolute; top: 0px; left: 0px;
+  }
+}
+#main-site-button,#daily-lesson-button,
+#my-lessons-button,#settings-button,#logout-button{
+  width: 20%;
+  height: 100%;
+  position: absolute; top: 0px; left: 0px;
+  text-align: center;
+  text-decoration: none;
+  color: #233;
+  font-size: 200%;
+  font-family: Verdana;
+  transition: all 0.5s;
+}
+#main-site-button:hover,#daily-lesson-button:hover,
+#my-lessons-button:hover,#settings-button:hover,#logout-button:hover{
+  animation-name: basic-button-animation;
+  animation-duration: 3s;
+}
+#daily-lesson-button{
+  position: absolute; top: 0px; left: 20%;
+}
+#my-lessons-button{
+  position: absolute; top: 0px; left: 40%;
+}
+#settings-button{
+  position: absolute; top: 0px; left: 60%;
+}
+#logout-button{
+  position: absolute; top: 0px; left: 80%;
+}

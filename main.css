@@ -45,7 +45,10 @@ body{
   font-weight: 400;
   font-family: fantasy;
   transition: all 0.45s;
-  cursor: pointer
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-size: 250%;
 }
 #Sign-in-button:hover,#Sign-up-button:hover{
   background: rgb(255,100,0);

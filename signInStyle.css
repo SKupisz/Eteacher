@@ -1,0 +1,44 @@
+#header-teacher-wrapper{
+  font-size: 165%;
+}
+#singining{
+  width: 40%;
+  height: 50%;
+  position: absolute; top: 40%; left: 30%;
+  background: DarkOrange;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  font-size: 160%;
+  font-family: Verdana;
+  border-radius: 5%;
+}
+#formSubmit{
+   width: 50%;
+   height: 21%;
+   position: absolute; top: 55%; left: 25%;
+   font-size: 170%;
+   border: none;
+   border-radius: 19px;
+   background: #444;
+   /*color: rgb(255,200,0);*/
+   color: white;
+   cursor: pointer;
+   transition: all 0.45s;
+}
+#formSubmit:hover{
+  background: #111;
+  border-radius: 4px;
+}
+#inputs-wrapper{
+  margin-top: 10px;
+}
+#usernameInput,#passwordInput{
+  background: #eee;
+  border: 2px solid #888;
+  border-radius: 7px;
+  transition: all 0.45s;
+}
+#usernameInput:hover,#passwordInput:hover{
+  transform: scale(1.1);
+}
